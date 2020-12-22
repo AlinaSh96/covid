@@ -38,7 +38,7 @@
   .img-full-screen:hover {
     transform: scale(1.1); }
 
-@media screen and (min-width: 1024px) and (max-width: 1450px) {
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
   .map-container {
     max-height: 430px; } }
 
@@ -62,6 +62,9 @@
   .list__select {
     width: 206px;
     margin-top: 5px; }
+    .list__select .option {
+      color: #333;
+      background: #fff; }
   .list__search {
     width: 170px; }
   .list__contries {
@@ -83,7 +86,7 @@
   .list .btn__full {
     width: 20px;
     height: 20px;
-    background-image: url("https://img.icons8.com/fluent-systems-filled/20/cccccc/full-screen.png");
+    background-image: url("https://img.icons8.com/fluent-systems-filled/20/cbddf8/full-screen.png");
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -105,7 +108,7 @@
     transition: .3s;
     cursor: pointer; }
     .wrap__search .btn__key:hover {
-      background-image: url("https://img.icons8.com/metro/30/CCCCCC/keyboard.png"); }
+      background-image: url("https://img.icons8.com/metro/30/cbddf8/keyboard.png"); }
 
 .country {
   padding-left: 10px;
@@ -127,7 +130,7 @@
   .country__title {
     margin-left: 6px; }
 
-@media screen and (min-width: 1024px) and (max-width: 1450px) {
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
   .list {
     width: 200px; }
     .list__select {
@@ -266,7 +269,7 @@ body {
   color: #333;
   font-size: 1.6rem; }
 
-@media screen and (min-width: 1024px) and (max-width: 1450px) {
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
   body {
     font-size: 1.4rem; } }
 
@@ -319,7 +322,7 @@ body {
   height: 100vh;
   z-index: 10000; }
 
-.grid-container {
+.container {
   display: flex;
   position: relative;
   justify-content: space-between;
